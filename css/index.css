@@ -5,3 +5,10 @@
   background-repeat: no-repeat; 
   background-size: cover; ;
 }
+.services{
+  background-image: url(../assets/s_image.jpg);
+  height: 50vh;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; ;
+}
