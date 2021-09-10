@@ -12,3 +12,11 @@
   background-repeat: no-repeat; 
   background-size: cover; ;
 }
+.contact{
+  background-image: url("../assets/c_image.jpg"); 
+  height: 80vh; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; ;
+  margin-top: 100px;
+}
