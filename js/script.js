@@ -14,6 +14,8 @@ $(document).ready(function(){
   });
 });
 
+//portfolio
+
 //form validation and thank you message
 function popUpMessage(){
   var name =$("#name").val();
