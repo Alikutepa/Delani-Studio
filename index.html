@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/index.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <title>Delani Studio</title>
 </head>
 <body>
@@ -135,20 +136,30 @@
   <section>
     <div class="container-fluid contact">
       <h4 class="text-light h3 text-center mx-auto fw-bold pt-5 mb-5">CONTACT US</h4>
-      <div class="row text-light">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Name..." aria-label="First name">
+      <form class="container" action="" method="" id="form" >
+        <div class="row" id="contactUs">
+          <div class="col-6">
+            <div class="form-group">
+              <label for="name"></label>
+              <input type="text" name="NAME" id="name" placeholder="Name..." class="form-control" required>
+
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-group">
+              <label for="email"></label>
+              <input type="email" value="" name="EMAIL" class=" form-control" id="email" placeholder="Email" required>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-group">
+            <label for="message"></label>
+            <textarea type="text" name="MESSAGE" class="form-control" id="message" cols="30" rows="10" placeholder="Your message here..." required></textarea>
+          </div>
         </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Email..." aria-label="Last name">
-        </div>
-      </div>
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Your message here..." id="floatingTextarea2" style="height: 100px"></textarea>
-        
       </div>
       <div class="container text-center mt-5">
-        <button class="btn btn-dark text-light"> SUBMIT </button>
+        <input type="submit" placeholder="SUBMIT" value="submit" class="btn btn-dark submit" onclick="popUpMessag()">
       </div>
 
     </div>

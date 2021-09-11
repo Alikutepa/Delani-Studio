@@ -1,3 +1,6 @@
+*{
+  font-family: 'poppins' sans-serif;
+}
 .home{
   background-image: url("../assets/h_img.jpg"); 
   height: 100vh; 
@@ -21,6 +24,7 @@ padding: 15%;
 }
 .design p, .development p, .product p{
 display: none;
+cursor: pointer;
 }
 .contact{
   background-image: url("../assets/c_image.jpg"); 
@@ -30,8 +34,24 @@ display: none;
   background-size: cover; ;
   margin-top: 100px;
 }
-.form-control{
-  background: transparent;
+form #contact{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+input[type=text]{
+  background:transparent;
+  color: white;
+}
+input[type=email]{
+  background:transparent;
+  color: white;
+}
+textarea[type=text] {
+  background:transparent;
+  color: white;
+}
+::placeholder{
+  color: white;
 }
 .socialIcons img{
   width: 50px;
