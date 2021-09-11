@@ -19,7 +19,7 @@ padding: 15%;
   background-repeat: no-repeat; 
   background-size: cover; ;
 }
-.design p{
+.design p, .development p, .product p{
 display: none;
 }
 .contact{

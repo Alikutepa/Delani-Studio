@@ -4,8 +4,8 @@ $(document).ready(function(){
       $(".text1").toggle();
   });
   $(".development").click(function(){
-      $(".wedo2").toggle();
-      $(".info2").toggle();
+      $(".img2").toggle();
+      $(".text2").toggle();
   });
   $(".product").click(function(){
       $(".wedo3").toggle();
