@@ -8,7 +8,7 @@ $(document).ready(function(){
       $(".text2").toggle();
   });
   $(".product").click(function(){
-      $(".wedo3").toggle();
-      $(".info3").toggle();
+      $(".img3").toggle();
+      $(".text3").toggle();
   });
 });
