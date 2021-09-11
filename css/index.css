@@ -30,3 +30,11 @@ padding: 15%;
 .form-control{
   background: transparent;
 }
+.socialIcons img{
+  width: 50px;
+  transition: 0.5s;
+}
+.socialIcons a:hover img{
+  text-decoration: none;
+  transform: translateX(-10px);
+}
