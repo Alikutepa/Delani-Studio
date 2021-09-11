@@ -19,6 +19,9 @@ padding: 15%;
   background-repeat: no-repeat; 
   background-size: cover; ;
 }
+.design p{
+display: none;
+}
 .contact{
   background-image: url("../assets/c_image.jpg"); 
   height: 80vh; 
