@@ -66,6 +66,46 @@ $('#image4 a img').hover(function () {
       opacity: 1}, 600);
   $('.text4').addClass('hide');
 });
+$('#image5 a img').hover(function () {
+  $(this).stop().animate({
+      opacity: .3
+  }, 200);
+  $('.text5').removeClass('hide');
+}, function () {
+  $(this).stop().animate({
+      opacity: 1}, 600);
+  $('.text5').addClass('hide');
+});
+$('#image6 a img').hover(function () {
+  $(this).stop().animate({
+      opacity: .3
+  }, 200);
+  $('.text6').removeClass('hide');
+}, function () {
+  $(this).stop().animate({
+      opacity: 1}, 600);
+  $('.text6').addClass('hide');
+});
+$('#image7 a img').hover(function () {
+  $(this).stop().animate({
+      opacity: .3
+  }, 200);
+  $('.text7').removeClass('hide');
+}, function () {
+  $(this).stop().animate({
+      opacity: 1}, 600);
+  $('.text7').addClass('hide');
+});
+$('#image8 a img').hover(function () {
+  $(this).stop().animate({
+      opacity: .3
+  }, 200);
+  $('.text8').removeClass('hide');
+}, function () {
+  $(this).stop().animate({
+      opacity: 1}, 600);
+  $('.text8').addClass('hide');
+});
 
 
 //form validation and thank you message
