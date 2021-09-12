@@ -26,15 +26,15 @@ $(document).ready(function(){
   
 //});
 $(document).ready( function() {
-    $('#image1 a img').hover(function () {
+    $('#image1 a img').hover(function () { //applies this function on hover
       $(this).stop().animate({
           opacity: .3
       }, 200);
-      $('.text1').removeClass('hide');
+      $('.text1').removeClass('hide');// to remove text in the class hide
   }, function () {
       $(this).stop().animate({
           opacity: 1}, 600);
-      $('.text1').addClass('hide');
+      $('.text1').addClass('hide'); // to return the text
   });
   $('#image2 a img').hover(function () {
     $(this).stop().animate({
