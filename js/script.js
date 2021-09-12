@@ -15,6 +15,15 @@ $(document).ready(function(){
 });
 
 //portfolio
+$(document).ready( function() {
+
+  $('#hoverImage').hover( function() {
+      $(this).find('#hoverTitle').fadeIn(300);
+  }, function() {
+      $(this).find('#hoverTitle').fadeOut(100);
+  });
+  
+});
 
 //form validation and thank you message
 function popUpMessage(){

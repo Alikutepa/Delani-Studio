@@ -42,6 +42,33 @@ display: none;
 cursor: pointer;
 }
 
+#hoverImage{
+  height: auto;
+  position: relative;
+}
+#hoverImage:hover #hoverTitle{
+  opacity: 1;
+}
+#hoverTitle{
+    position: absolute;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    display: none; 
+    background-color: rgb(218, 208, 208);
+    transition: all 0.5s ease;
+}
+#hoverTitle h5 {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  width: 100%;
+  text-align: center; 
+}
+
 .contact{
   background-image: url("../assets/c_image.jpg"); 
   height: 80vh; 
