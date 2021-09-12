@@ -42,7 +42,7 @@ display: none;
 cursor: pointer;
 }
 
-#hoverImage{
+/*#hoverImage{
   height: auto;
   position: relative;
 }
@@ -50,15 +50,15 @@ cursor: pointer;
   opacity: 1;
 }
 #hoverTitle{
-    position: absolute;
-    top: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    display: none; 
-    background-color: rgb(218, 208, 208);
+  position: absolute;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  display: none; 
+  background-color: rgb(218, 208, 208);
     transition: all 0.5s ease;
 }
 #hoverTitle h5 {
@@ -67,6 +67,18 @@ cursor: pointer;
   top: 50%;
   width: 100%;
   text-align: center; 
+}*/
+#image1{
+  position: relative;
+}
+.text1{
+  position: absolute;
+  z-index: 1;
+  left: 25%;
+  top: 40%;
+}
+.hide{
+  display: none;
 }
 
 .contact{

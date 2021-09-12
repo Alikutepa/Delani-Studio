@@ -15,15 +15,28 @@ $(document).ready(function(){
 });
 
 //portfolio
-$(document).ready( function() {
+//$(document).ready( function() {
 
-  $('#hoverImage').hover( function() {
-      $(this).find('#hoverTitle').fadeIn(300);
-  }, function() {
-      $(this).find('#hoverTitle').fadeOut(100);
-  });
+ // $('#hoverImage').hover( function() {
+  //    $(this).find('#hoverTitle').fadeIn(300);
+  //}, function() {
+   //   $(this).find('#hoverTitle').fadeOut(100);
+ // });
+   
   
+//});
+
+  $('#image1 a img').hover(function () {
+    $(this).stop().animate({
+        opacity: .3
+    }, 200);
+    $('.text1').removeClass('hide');
+}, function () {
+    $(this).stop().animate({
+        opacity: 1}, 600);
+    $('.text1').addClass('hide');
 });
+
 
 //form validation and thank you message
 function popUpMessage(){
