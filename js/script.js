@@ -2,15 +2,15 @@
 $(document).ready(function(){
   $(".design").click(function(){
       $(".img1").toggle();
-      $(".text1").toggle();
+      $(".desc1").toggle();
   });
   $(".development").click(function(){
       $(".img2").toggle();
-      $(".text2").toggle();
+      $(".desc2").toggle();
   });
   $(".product").click(function(){
       $(".img3").toggle();
-      $(".text3").toggle();
+      $(".desc3").toggle();
   });
 });
 
