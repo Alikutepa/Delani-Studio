@@ -42,14 +42,14 @@ display: none;
 cursor: pointer;
 }
 
-/*#hoverImage{
+.hoverImage{
   height: auto;
   position: relative;
 }
-#hoverImage:hover #hoverTitle{
+.hoverImage:hover .hoverTitle{
   opacity: 1;
 }
-#hoverTitle{
+.hoverTitle{
   position: absolute;
   top: 0;
   margin: 0;
@@ -61,24 +61,12 @@ cursor: pointer;
   background-color: rgb(218, 208, 208);
     transition: all 0.5s ease;
 }
-#hoverTitle h5 {
+.hoverTitle h5 {
   position: absolute;
   color: #fff;
   top: 50%;
   width: 100%;
   text-align: center; 
-}*/
-#image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8{
-  position: relative;
-}
-.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8{
-  position: absolute;
-  z-index: 1;
-  left: 25%;
-  top: 40%;
-}
-.hide{
-  display: none;
 }
 
 .contact{
